@@ -5,7 +5,7 @@ function RockClimbing() {
         <>
             <Container >
                 <Box sx={{ mt: 2 }}>
-                    <img img src={Himachal} alt="Himachal" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
+                    <Box component="img" src={Himachal} alt="Himachal" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
                     <Typography sx={{ mt: 2 }}>
                         There are several good rock climbing areas in India <br />
                         The Aravali hills have good climbing faces at Dumdama, Dhauj and Nuh, all situated near Delhi. The Western

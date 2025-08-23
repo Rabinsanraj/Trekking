@@ -6,7 +6,7 @@ export function FirstPara() {
   return (
     <Container>
       <Box sx={{ mt: 2 }}>
-        <img src={Himachal} alt="Himachal" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
+        <Box component="img" src={Himachal} alt="Himachal" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
         <Typography sx={{ mt: 2 }}>
           Being a soft-adventure sport, almost anyone in reasonable physical condition can go trekking. To get initiated into
           trekking begin with day hikes, returning to your starting point in the evening. Move on to a multi-day trek which
@@ -58,7 +58,7 @@ export function Equipment() {
   return (
     <Container>
       <Box sx={{ mt: 2 }}>
-        <img src={Things} alt="Things" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
+        <Box component="img" src={Things} alt="Things" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
       </Box>
       <Typography variant='h6' fontWeight={'bold'}  sx={{ textAlign: "center", mt: 2 }}>Equipment</Typography>
       <Typography sx={{ textAlign: "center" }}> It is possible to rent/buy trekking equipment all over India from clubs and adventure- gear manufacturers. Do<br />
