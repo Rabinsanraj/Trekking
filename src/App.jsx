@@ -1,15 +1,13 @@
 import './App.css'
 import { Typography, Container, Box, Grid } from "@mui/material";
-import { Route, Routes, Link, useLocation} from 'react-router-dom';
+import { Route, Routes, Link,} from 'react-router-dom';
 
 import Trekking from '../Pages/Trekking';
 import RockClimbing from '../Pages/RockClimbing';
 
 import styled from "@emotion/styled";
 
-const CustomLink = styled(Link, {
-  shouldForwardProp:(prop)=>prop !=='active'
-})(({ theme, active }) => ({
+const CustomLink = styled(Link)(({ theme}) => ({
   textDecoration: "none",
   color: "black",
   fontWeight: 600, 
@@ -29,7 +27,6 @@ const CustomLink = styled(Link, {
 }))
 
 function App() {
-  const location = useLocation();
   return (
     <Box>
       <Typography variant="h3" color="#000000dc" fontWeight="bold" textAlign="center" mt={3}>Climb India</Typography>
@@ -41,13 +38,11 @@ function App() {
                     </Grid>
               <Grid size={{ lg: 3, sm: 5, md: 6, xs: 6 }} >
             <CustomLink to="/" variant="h6"
-              sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}
-              active={location.pathname === "/" ? 1 : 0}> Trekking </CustomLink>
+              sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}> Trekking </CustomLink>
                     </Grid>
               <Grid size={{ lg: 3, sm: 5, md: 6, xs: 6 }} >
             <CustomLink to="/rock-climbing" variant="h6"
-              sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}
-              active={location.pathname === "/rock-climbing" ? 1 : 0} > Rock Climbing </CustomLink>
+              sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}> Rock Climbing </CustomLink>
                     </Grid>
               <Grid size={{ lg: 3, sm: 5, md: 6, xs: 6 }}>
             <CustomLink to="#" variant="h6"
