@@ -1,4 +1,5 @@
-import { Container, Grid, List, ListItem, Typography, Box } from "@mui/material";
+import { Container, Grid, List, ListItem, Typography, Box,
+  Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, ListItemText,} from "@mui/material";
 import Himachal from '../Image/Himachal.jpg';
 import Things from '../Image/Things.jpg';
 
@@ -60,7 +61,7 @@ export function Equipment() {
       <Box sx={{ mt: 2 }}>
         <Box component="img" src={Things} alt="Things" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
       </Box>
-      <Typography variant='h6' fontWeight={'bold'}  sx={{ textAlign: "center", mt: 2 }}>Equipment</Typography>
+      <Typography variant='h6' fontWeight={'bold'} sx={{ textAlign: "center", mt: 2 }}>Equipment</Typography>
       <Typography sx={{ textAlign: "center" }}> It is possible to rent/buy trekking equipment all over India from clubs and adventure- gear manufacturers. Do<br />
         thoroughly check all gear before venturing out into the mountains</Typography>
     </Container>
@@ -70,15 +71,15 @@ export function Equipment() {
 export function BestSeason() {
   return (
     <Container>
-            <Box>
+      <Box>
         <Typography variant='h6' fontWeight={'bold'} sx={{ textAlign: "center", mt: 2 }}>Best Season in India</Typography>
-              <Typography sx={{ textAlign: "center" }}>
-                <strong>May/June and September/October </strong>for Garhwal, Kumaon (Uttarakhand), Sikkim and Himachal Pradesh<br />
-                <strong>June/July and August/September</strong> for Ladakh and Zanskar (Jammu and Kashmir)<br />
-                One can trek in the foothills of the Himalayas from <strong>October through till March</strong>
-              </Typography>
-            </Box>
-          </Container>
+        <Typography sx={{ textAlign: "center" }}>
+          <strong>May/June and September/October </strong>for Garhwal, Kumaon (Uttarakhand), Sikkim and Himachal Pradesh<br />
+          <strong>June/July and August/September</strong> for Ladakh and Zanskar (Jammu and Kashmir)<br />
+          One can trek in the foothills of the Himalayas from <strong>October through till March</strong>
+        </Typography>
+      </Box>
+    </Container>
   )
 }
 
@@ -101,26 +102,26 @@ export function TrekkingList() {
     <Box mt={2}>
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid size={{ lg: 5, sm: 12, md: 6, xs: 12 }}  >
-             <List>
-                {col1.map((item, index) => (
-                  <ListItem key={index} >
-                    <Typography variant="body1">
-                      {index + 1}. {item}
-                    </Typography>
-                  </ListItem>
-                ))}
-              </List>
+          <List>
+            {col1.map((item, index) => (
+              <ListItem key={index} >
+                <Typography variant="body1">
+                  {index + 1}. {item}
+                </Typography>
+              </ListItem>
+            ))}
+          </List>
         </Grid >
         <Grid size={{ lg: 5, sm: 12, md: 6, xs: 12 }}>
-              <List>
-                {col2.map((item, index) => (
-                  <ListItem key={index + mid}>
-                    <Typography variant="body1">
-                      {index + 1 + mid}. {item}
-                    </Typography>
-                  </ListItem>
-                ))}
-              </List>
+          <List>
+            {col2.map((item, index) => (
+              <ListItem key={index + mid}>
+                <Typography variant="body1">
+                  {index + 1 + mid}. {item}
+                </Typography>
+              </ListItem>
+            ))}
+          </List>
         </Grid>
       </Grid>
     </Box>
@@ -155,27 +156,189 @@ export function TrekkingTips() {
   const tips = [
     "Hydration",
     "Clothing / staying warm (‘Cover your head if your feet are cold gentlemen’ is an old English saying)",
-    "Packing a rucksack",
-    "Pacing yourself on a trek",
+    "Packing a rucksack", "Pacing yourself on a trek",
     "Timing – ‘Start early and arrive early’ is the cardinal rule of trekking",
-    "Porters and guides – A guide, or guide-cum-cook, is important on routes that are remote, tougher and relatively less trodden. Porters, with the option of ponies, will come in extremely handy on longer trips, especially if you’re carrying lots of provisions.",
+    "Porters and guides – A guide, or guide-cum-cook, is important on routes that are remote, tougher and relatively less trodden.Porters, with the option of ponies, will come in extremely handy on longer trips, especially if you’re carrying lots of provisions.",
     "Mules and horses on the trail",
   ];
 
   return (
-      <List>
-        {tips.map((tip, index) => (
-          <ListItem key={index} >
-            <Typography>
-              {index + 1}. {tip}
-            </Typography>
-          </ListItem>
-        ))}
-      </List>
+    <List>
+      {tips.map((tip, index) => (
+        <ListItem key={index} >
+          <Typography>
+            {index + 1}. {tip}
+          </Typography>
+        </ListItem>
+      ))}
+    </List>
   );
 }
 
 // ______________________________________________________________________
-//
 
+// Sport-Climbing 
 
+export function SportManagementTable() {
+  const rows = [
+    {
+      committee: "IMF North Zone Committee, New Delhi",
+      jurisdiction: "Jammu & Kashmir, Punjab, Haryana, Uttar Pradesh, Delhi, Uttarakhand"
+    },
+    {
+      committee: "IMF South Zone Committee, Bengaluru",
+      jurisdiction: "Karnataka, Andhra Pradesh, Telangana, Tamil Nadu, Kerala"
+    },
+    {
+      committee: "IMF East Zone Committee, Kolkata",
+      jurisdiction: "West Bengal, Odisha, Jharkhand, Bihar, Sikkim"
+    },
+    {
+      committee: "IMF West Zone Committee, Pune",
+      jurisdiction: "Maharashtra, Rajasthan, Madhya Pradesh, Chhattisgarh, Goa"
+    },
+    {
+      committee: "IMF North East Zone Committee, Manipur",
+      jurisdiction: "Manipur, Assam, Arunachal Pradesh, Meghalaya, Mizoram, Nagaland, Tripura"
+    },
+    {
+      committee: "Services Zone",
+      jurisdiction: "Indian Army, Air force and Navy"
+    },
+    {
+      committee: "Police Service Zone",
+      jurisdiction: "ITBP, BSF, CRPF and other CAPFs"
+    }
+  ];
+
+  return (
+    <TableContainer component={Paper} sx={{ mt: 2, overflowX: "auto",
+      maxWidth: "100%", }} >
+      <Table sx={{ minWidth: 600 }}>
+        <TableHead>
+          <TableRow sx={{ backgroundColor: "#ced3d8ff", border: "1px solid #ccc" }}>
+            <TableCell variant="h6" sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>Zonal Committee</TableCell>
+            <TableCell variant="h6" sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>Jurisdiction</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row, index) => (
+            <TableRow key={index}>
+              <TableCell sx={{ border: "1px solid #ccc" }}>{row.committee}</TableCell>
+              <TableCell sx={{ border: "1px solid #ccc" }}>{row.jurisdiction}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+
+export function Competetions() {
+  const rows = [
+    { group: "Men/Women", age: "17 years & beyond", lead: true, speed: true, bouldering: true},
+    {group: "Junior Boys/Girls",age: "14-16 years",lead: true,speed: true,bouldering: true},
+    {group: "Sub Junior Boys/Girls",age: "10-13 years",lead: true,speed: true,bouldering: true}
+  ];
+
+  return (
+    <Box sx={{ mt: 2 }}>
+      <TableContainer
+        component={Paper}
+        sx={{ overflowX: "auto", maxWidth: "100%",}}>
+        <Table sx={{ minWidth: 650, border: "1px solid #ccc" }}>
+          <TableHead>
+            <TableRow sx={{ backgroundColor: "#e9edf7" }}>
+              <TableCell sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>
+                Age Group
+              </TableCell>
+              <TableCell sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>
+                Age
+              </TableCell>
+              <TableCell sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>
+                Lead
+              </TableCell>
+              <TableCell sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>
+                Speed
+              </TableCell>
+              <TableCell sx={{ fontWeight: "bold", border: "1px solid #ccc" }}>
+                Bouldering
+              </TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {rows.map((row, index) => (
+              <TableRow key={index}>
+                <TableCell sx={{ border: "1px solid #ccc" }}>
+                  {row.group}
+                </TableCell>
+                <TableCell sx={{ border: "1px solid #ccc" }}>
+                  {row.age}
+                </TableCell>
+                <TableCell sx={{ border: "1px solid #ccc", textAlign: "center" }}>
+                  {row.lead ? "✓" : ""}
+                </TableCell>
+                <TableCell sx={{ border: "1px solid #ccc", textAlign: "center" }}>
+                  {row.speed ? "✓" : ""}
+                </TableCell>
+                <TableCell sx={{ border: "1px solid #ccc", textAlign: "center" }}>
+                  {row.bouldering ? "✓" : ""}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </Box>
+  );
+}
+
+export function WorldLevelCompetetion() {
+  const competetions = [
+    "World Cup (Above 16 Yrs) — held every year",
+    "World Youth (Above 16 Yrs) — held every year",
+    "World Championship (16 Yrs) — held every two years",
+    "World Para Climbing (Above 16 Yrs) — held every two years",
+  ];
+
+  return (
+    <>
+      <List sx={{ listStyleType: "disc", pl: 4 }}>
+        {competetions.map((comp, index) => (
+          <ListItem key={index} sx={{ display: "list-item" }}>
+            <ListItemText primary={comp} />
+          </ListItem>
+        ))}
+      </List>
+    </>
+  );
+}
+
+export function Achivements() {
+  const achivements = [
+"2 Silver medals in 2002 Asian Youth Championship, Malaysia",
+" 1 Silver & 1 Bronze in 2004 Asia Cup, Uttar Kashi, India",
+" 1 Bronze in 2005 Asian Youth Championship, Hong Kong",
+" 2 Silver medals in 2008 Asian Youth Cup, Bali",
+" 1 Bronze in 2008 Asian Youth Championship",
+" 11 Medals(3 Golds) in 2009 Asian Youth Championship, Kazakhstan",
+" 1 Silver and 1 Bronze in 2009 World Trex Games, Korea",
+" 3 Silvers in 2011 Asian Youth Championship, Singapore",
+" 1 Gold in 2012 at World Para Climbing Championship",
+" 1 Bronze in 2013 Asian Youth Championship",
+" 1 Gold, 2 Silver and 1 Bronze in 2015 Asian Youth Championship",
+" 1 Gold in 2017 Asian Youth Championship Singapore",
+  ];
+
+  return (
+    <>
+      <List sx={{ listStyleType: "disc", pl: 4 }}>
+        {achivements.map((achive, index) => (
+          <ListItem key={index} sx={{ display: "list-item" }}>
+            <ListItemText primary={achive} />
+          </ListItem>
+        ))}
+      </List>
+    </>
+  );
+}

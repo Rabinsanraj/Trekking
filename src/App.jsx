@@ -4,6 +4,8 @@ import { Route, Routes, Link,} from 'react-router-dom';
 
 import Trekking from '../Pages/Trekking';
 import RockClimbing from '../Pages/RockClimbing';
+import SportClimbing from '../Pages/SportClimbing';
+
 
 import styled from "@emotion/styled";
 
@@ -45,7 +47,7 @@ function App() {
               sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}> Rock Climbing </CustomLink>
                     </Grid>
               <Grid size={{ lg: 3, sm: 5, md: 6, xs: 6 }}>
-            <CustomLink to="#" variant="h6"
+            <CustomLink to="/sport-climbing" variant="h6"
               sx={{ textDecoration: "none", color: "inherit", cursor: 'pointer' }}> Sport Climbing </CustomLink>
                     </Grid>
                   </Grid>
@@ -54,6 +56,7 @@ function App() {
     
         <Route path="/" element={<Trekking />} />
         <Route path="/rock-climbing" element={<RockClimbing />} />
+        <Route path="/sport-climbing" element={<SportClimbing />}/>
 
       </Routes>
     </Box>
