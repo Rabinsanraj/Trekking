@@ -1,0 +1,232 @@
+{
+  "FirstPara": [
+    "Being a soft-adventure sport, almost anyone in reasonable physical condition can go trekking. To get initiated into trekking begin with day hikes, returning to your starting point in the evening. Move on to a multi-day trek which is relatively easy, in order to get to know your ability and aptitude. You can venture into the mountains with an experienced trekker, join an adventure club, or go with a reputed adventure travel company. It is not a good idea to venture out into the mountains alone – unless you happen to be a distant relative of the mythical Himalayan yeti (or an aspiring Reinhold Messner, the first person in the world to have climbed all fourteen 8000m peaks, including the first oxygen-less ascent and later the first solo ascent of Everest).",
+    "A basic knowledge of camp craft, map reading and first aid is essential before you go trekking. It’s a good idea to do an adventure course from one of the mountaineering/ adventure institutes in India. A basic course in mountaineering and a first-aid course are recommended if you decide to take it up more seriously and trek to remote/high-altitude areas. Get as much information about the trekking area as possible – the people, their culture, the geography, terrain, medical/rescue facilities and weather conditions – before you go."
+  ],
+  "SecondPara": [
+    "Trekking in India started when the land was inhabited in prehistoric times. There are perhaps as many trekking routes in India as there are Indians. It was in the 1970’s and 1980’s that trekking started gaining in popularity as a recreational/adventure sport. A number of religious sites and shrines across the country, especially in Jammu and Kashmir, and in the Garhwal region of Uttarakhand – such as Badrinath, Amarnath, Gangotri, Hemkund, Joshimath, Kedarnath, Vaishno Devi and Yamunotri – entail trekking for a couple of days in the mountains. Trekking in India has grown in leaps and bounds and the current trekking scenario is very promising, with thousands of Indians and foreigners hitting trekking trails each year.",
+    "What India can boast of is some of the most stunning trekking routes in the world – many of the mountain passes in the Ladakh and Zanskar Himalayas are above 5000m. But there are plenty of gentler and smaller trails, at different altitudes, both in the mountains and in the forests. If you’re looking for less arduous hikes, you’ll find plenty in in the Western Ghats and the Nilgiri Hills of south India (Munnar and Wayanad in Kerala, Coorg in Karnataka, and around Ooty in Tamil Nadu)."
+  ],
+
+  "TrekkingItmesList": [
+    "Small rucksack / knapsack",
+    "Sleeping bag",
+    "Lockable duffel bag",
+    "Karrimat / Therm-a-Rest",
+    "Tent",
+    "Personal toiletries",
+    "Water bottle (at least 2 litres)",
+    "First-aid kit",
+    "Camera with spare batteries and film (carry more film than you think you will need!)",
+    "Headlamp / torch with spare cells",
+    "Maps",
+    "Diary/pen/reading material",
+    "Sewing kit",
+    "Swiss Army knife",
+    "Whistle",
+    "Sunscreen – with high SPF (at least 30, to better protect you from harmful UV rays)",
+    "Lip salve/ChapStick",
+    "Sunglasses with retainers/spare prescription glasses",
+    "Lighter",
+    "Emergency rations/goodies",
+    "Parachute cord",
+    "Ski-stick/ice-axe",
+    "Rope (for high-altitude treks)",
+    "Plastic bags and Ziplocs for packing gear"
+  ],
+
+  "TrekkingPlaces": [
+    "Jammu and Kashmir (Ladakh, Zanskar)",
+    "Himachal Pradesh",
+    "Uttarakhand (Garhwal, Kumaon)",
+    "Sikkim and Darjeeling",
+    "Northeast states (Arunachal Pradesh)",
+    "Western Ghats",
+    "South India (Nilgiris, Coorg)"
+  ],
+
+  "TrekkingTips": [
+    "Hydration",
+    "Clothing / staying warm (‘Cover your head if your feet are cold gentlemen’ is an old English saying)",
+    "Packing a rucksack",
+    "Pacing yourself on a trek",
+    "Timing – ‘Start early and arrive early’ is the cardinal rule of trekking",
+    "Porters and guides – A guide, or guide-cum-cook, is important on routes that are remote, tougher and relatively less trodden.Porters, with the option of ponies, will come in extremely handy on longer trips, especially if you’re carrying lots of provisions.",
+    "Mules and horses on the trail"
+  ],
+
+
+  "WhatIsSportClimbing":[
+    "Climbing is a primary human movement. As children, we crawl, learn to climb and then learn to walk. Sport climbing is just an embellishment of that reflex we've all exercised on ladders, stairs or trees. Sport climbing is an offshoot of natural rock climbing and is more accessible than traditional rock climbing, both in terms of location and cost. While its genesis lay in Mountaineering, it has evolved into a unique sport accessible to millions, who practise it both indoors and outdoors. Sport climbing involves high-intensity climbing on relatively short routes. Its distinguishing characteristics include preplaced bolts and an emphasis on the physical aspect of the climb rather than the destination or summit. Sport routes can be found indoors or out, on nearby, accessible rock crags or on artificial walls at a gym or a competition arena. India houses some of the world's most renowned climbing destinations like Badami, Hampi, Dhauj, Chhatru, the Sahyadris and Rishikesh. The sheer volume of unexplored areas, however, catalyzes the possibility of a massive expansion in the scene that currently sits on the verge of becoming a very stable tourist economy. Also, the symbiosis between outdoor and indoor climbing has facilitated more frequent and rewarding competitive circuits. In short, there's a lot to watch, but even more to watch out for!"
+  ],
+
+  "SportClimbing" :[
+    "Sport climbing on an artificial wall surface was officially confirmed as an additional sport for the Tokyo 2020 Olympic Games by the IOC Session in Rio de Janeiro in August 2016 and it has been included as a medal sport in the 2018 Youth Olympic Games in Buenos Aires. The International Federation of Sport Climbing (IFSC) is the international governing body for the sport of competitive climbing. It was founded in Frankfurt on 27 January 2007 by 48 member federations. The IFSC is recognized by the IOC, is member of ARISF, Sport Accord and IWGA.",
+    "International Competition Climbing includes the following Disciplines:"
+  ],
+
+   "SportClimbing2": [
+     {
+       "name": "a): Lead",
+       "description": "Climbs ('Routes') are climbed with the competitor clipping into protection points as they climb (on 'Lead'). Progression along the line of the route determines a competitor's ranking. Lead climbing is a height competition within a specified time frame in which climbers attach a safety rope and climb a fixed course on a wall exceeding 12 meters. It focuses on the difficulty of a route."
+     },
+     {
+       "name": "b): Bouldering",
+       "description": "Short climbs ('Boulders') are attempted without ropes but with landing mats for protection. Climbers climb fixed routes on a wall of 5 meters or less, and are ranked by the number of routes they have completed in the designated time frame. It focuses on short 'problem' sequences of 5 to 6 moves."
+     },
+     {
+       "name": "c): Speed",
+       "description": "Climbs are attempted with an in-situ rope on ('Top-Rope'). Speed climbers climb a fixed route on a 15 meter wall with holds. The time to complete the route determines a competitor's ranking. It is a sprint race in which split-second timing is required."
+     },
+     {
+       "name": "d): Team Speed",
+       "description": "This new discipline has been introduced in the Olympic format. It is a relay competition with teams of three athletes of the same sex. The race is held on the speed climbing wall, split into four lanes, two for each team."
+     },
+     {
+       "para1": "Climbing is a challenging, thoroughly enjoyable and highly addictive sport that nurtures great physical (strength, balance, coordination) and mental (confidence, trust in others, commitment) attributes whilst remaining non discriminatory regarding gender or age. It places an emphasis on gymnastic-like ability, strength, and endurance. The athletes have to use his/her two hands and two legs but not all four at one time. At least one out of four points of his body should be free leaving him to push up, hence it is based and known as 3 point climbing.",
+       "para2": "In addition to the Athletes who participate in the competitions, several other categories of officials/ athletes are also actively involved in the conduct of sport climbing activity"
+     },
+     {
+       "name2": "1. Belayers: ",
+       "description2": "Are trained to handle safety rope of the climbers and arrest the fall of athletes in case they slip, to prevent injuries and ensure safe descent"
+     },
+     {
+       "name2": "2. Route Setters: ",
+       "description2": "They plan and co-ordinate all matters of route setting and route maintenance, including the design of each route or boulder; the installation of holds, protection points and other equipment; repair and cleaning of routes and boulders. They are responsible for checking the technical standard and safety of each route or boulder."
+     },
+     {
+      "name2":"3. Judges: ",
+      "description2":"They judge the performance of the competitors on routes and boulders respectively. National Judges shall be persons holding an international or a national license and are expected to be fully informed of the technical rules and regulations governing competitions approved by the IFSC"
+    }
+   ],
+
+  "SportManagementTableRows": [
+    {
+      "committee": "IMF North Zone Committee, New Delhi",
+      "jurisdiction": "Jammu & Kashmir, Punjab, Haryana, Uttar Pradesh, Delhi, Uttarakhand"
+    },
+    {
+      "committee": "IMF South Zone Committee, Bengaluru",
+      "jurisdiction": "Karnataka, Andhra Pradesh, Telangana, Tamil Nadu, Kerala"
+    },
+    {
+      "committee": "IMF East Zone Committee, Kolkata",
+      "jurisdiction": "West Bengal, Odisha, Jharkhand, Bihar, Sikkim"
+    },
+    {
+      "committee": "IMF West Zone Committee, Pune",
+      "jurisdiction": "Maharashtra, Rajasthan, Madhya Pradesh, Chhattisgarh, Goa"
+    },
+    {
+      "committee": "IMF North East Zone Committee, Manipur",
+      "jurisdiction": "Manipur, Assam, Arunachal Pradesh, Meghalaya, Mizoram, Nagaland, Tripura"
+    },
+    {
+      "committee": "Services Zone",
+      "jurisdiction": "Indian Army, Air force and Navy"
+    },
+    {
+      "committee": "Police Service Zone",
+      "jurisdiction": "ITBP, BSF, CRPF and other CAPFs"
+    },
+    {
+      "para":"Indian Mountaineering Foundation (IMF) represents India in the IFSC and coordinates the activities of the sport climbing in the country strictly according to the guide lines of IFSC. IMF National Sport Climbing Committee plans, coordinates and executes sport climbing activities and events across the country through various Zonal Committees."
+    }
+  ],
+
+  "InfrastructureRequired":[
+    "The infrastructure required for the practice of the sport is a designed climbing wall fitted with holds to enable climbing on the wall. It can be done on any existing wall or a separate structure safely with the aid of the rope belay.",
+    "However, on most modern walls, the material most often used is a thick multiplex board with holes drilled into it. The face of the multiplex board climbing surface is covered with textured products including concrete and paint or polyurethane loaded with sand. In addition to the textured surface and hand holds, the wall may contain surface structures such as indentions (in cuts) and protrusions (bulges), or take the form of an overhang, under hang or crack. Some grips are formed to mimic the conditions of outdoor rock, including some that are oversized and can have other grips bolted onto them.",
+    "However for a competition the wall needs to be standardized as per IFSC parameters."
+       ],
+  "CompetetionsRows": [
+    {"para":"Competitions are held keeping the Asian/ world parameters in view. Athletes are selected to take part in the all three (Lead, Speed & Boldering) events of the Asian Championship and then on to the world Cups/ World Championship."},
+      {
+      "group": "Men/Women",
+      "age": "17 years & beyond",
+      "lead": true,
+      "speed": true,
+      "bouldering": true
+    },
+    {
+      "group": "Junior Boys/Girls",
+      "age": "14-16 years",
+      "lead": true,
+      "speed": true,
+      "bouldering": true
+    },
+    {
+      "group": "Sub Junior Boys/Girls",
+      "age": "10-13 years",
+      "lead": true,
+      "speed": true,
+      "bouldering": true
+    }
+  ],
+  "WorldLevelCompetetion": [
+    "World Cup (Above 16 Yrs) — held every year",
+    "World Youth (Above 16 Yrs) — held every year",
+    "World Championship (16 Yrs) — held every two years",
+    "World Para Climbing (Above 16 Yrs) — held every two years"
+  ],
+
+  "achivements": [
+    "2 Silver medals in 2002 Asian Youth Championship, Malaysia",
+    " 1 Silver & 1 Bronze in 2004 Asia Cup, Uttar Kashi, India",
+    " 1 Bronze in 2005 Asian Youth Championship, Hong Kong",
+    " 2 Silver medals in 2008 Asian Youth Cup, Bali",
+    " 1 Bronze in 2008 Asian Youth Championship",
+    " 11 Medals(3 Golds) in 2009 Asian Youth Championship, Kazakhstan",
+    " 1 Silver and 1 Bronze in 2009 World Trex Games, Korea",
+    " 3 Silvers in 2011 Asian Youth Championship, Singapore",
+    " 1 Gold in 2012 at World Para Climbing Championship",
+    " 1 Bronze in 2013 Asian Youth Championship",
+    " 1 Gold, 2 Silver and 1 Bronze in 2015 Asian Youth Championship",
+    " 1 Gold in 2017 Asian Youth Championship Singapore"
+  ],
+
+   "Benefits" :[
+  
+    {
+      "name" :"Combines cardio and strength into a single workout:",
+      "description" :"During a single session of rock climbing, the body executes a number of physical tests, including boosting heart rate, building muscle and developing stamina. The upper body strength required for rock climbing is a given for pulling oneself up, while the legs and core build muscle as the body strives to find balance. According to a 1997 study published in the British Journal of Sports Medicine, the cardio and energy consumed in rock climbing is similar to running at a pace between 8 and 11 minutes per mile."
+    },
+    {
+      "name" :"Strengthens and tones muscles:",
+      "description" :"Rock climbing requires several different muscles groups to be engaged during the workout. Abs, obliques, delts, traps, biceps, lats, quads, calves. In fact, rock climbing even works your forearm muscles by strengthening a climber's grip. Virtually all major muscles groups are incorporated in even a single rock climbing expedition. A review published in the Journal of Human Kinetics in 2011 reported that elite rock climbers often have lower body mass indexes, lower body fat percentages, and increased handgrip strengths"
+    },
+    {
+      "name": "Increases flexibility:",
+      "description": "Rock climbing encourages participants to increase their range of motion. Rock climbing demands flexibility and adaptability as it requires climbers to reach, leap and climb to handholds and footholds usually far from a comfortable distance. According the July 2011 issue of 'Medicine & Science in Sports & Exercise', the American College of Sports Medicine suggested stretching should be done at least twice a week to increase flexibility, range of motion and improve blood circulation."
+    },
+    {
+      "name": "Mental strength:",
+      "description": "In bouldering the routes climbers take are called problems-and justly so, as a rock climbing requires problem-solving skills. Navigating routes demands a climber to judge their individual abilities, such as reach, strength required to complete the next step, current energy levels and route planning. Furthermore, rock climbing requires hand-eye coordination necessary for a climber to judge what he or she sees in a crag and how to reach it"
+    },
+    {
+      "name": "Reduces stress:",
+      "description": "Rock climbing reduces stress by increasing levels of nor epinephrine, a neurotransmitter in the body that aids in releasing stress. Climbers oftentimes become immersed in the flow of the activity enabling them to become consumed in the activity of reaching, climbing and leaping, creating as sense of ecstasy. Climbing outdoors also has been proven to further lower stress levels as climbers are more exposed to the sun and Vitamin D."
+    },
+    {
+      "name": "Burns calories:",
+      "description": "Harvard Health Publications reported that a 155-pound person burns about 818 calories hourly during a rock-climbing ascent and 596 calories per hour while rappelling. According to Dr. Kathleen Zelman of WebMD, burning 500 calories more than one eats every day can help shed 1-2 pounds per week."
+    },
+    {
+      "name": "Prevents chronic disease:",
+      "description": "The various exercises involved in rock climbing can aid in the prevention of chronic illnesses, such as heart disease, high blood pressure, high blood cholesterol and diabetes. The Centers for Disease Control and Prevention said rock climbing was a vigorous and intense physical activity and because of its health benefits in reducing stress, cardiovascular activity and building muscle, rock climbing can decrease the risk for various chronic illnesses"
+    },
+    {
+      "name": "Breathtaking sights:",
+      "description": "Regardless of whether a climber is indoors or outdoors, climbers unanimously partake in the euphoric feeling of being on top of the world. In reaching the summit of a climb, climbers view the vantage point from a breathtaking vantage point from an awe-inspiring, bird's-eye view. This view will oftentimes be accompanied by adrenaline, happiness and excitement, all of which are positive feelings that foster a sense of accomplishment and just reward, especially after put in so much work."
+    },
+    {
+      "name": "Conquers fears:",
+      "description": "Fear is among the greatest obstacles which prevent us from enjoying life to its fullest extent. Since of the most commonly held fears among people are the fear of heights and the fear of falling from heights. Rock climbing is a fantastic way to conquer these fears. Climbers are frequently strapped to harnesses, whether or not the climb is being done indoors or outdoors. The harness serves as a safety measure, preventing climbers from falling when they should lose their balance or grip. With the security of the harness, climbers can reach heights at their own comfort level. Conquering this fear of heights empowers many climbers and helps build confidence and self-esteem."
+    },
+    {
+      "name": "Challenge yourself:",
+      "description": "As confidence and self-reliance increase within climbs, climbers find themselves standing on the edge of their comfort zones. Climbing provides many with the opportunity to tap into the mind and body's limitless potential, enabling them to challenge themselves further in completing increasingly complex routes. Even when a route is completed, climbers will continue to tackle more challenges with even greater difficulties."
+    }
+  ]
+}
+
