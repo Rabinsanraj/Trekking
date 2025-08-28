@@ -1,6 +1,6 @@
 import {
-  Container, Grid, List, ListItem, Typography, Box,
-  Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, ListItemText,
+  Container, Grid, List, ListItem, Typography, Box, Table, TableBody,
+  TableCell, TableContainer, TableHead, TableRow, Paper, ListItemText,
 } from "@mui/material";
 import Himachal from '../Image/Himachal.jpg';
 import Things from '../Image/Things.jpg';
@@ -9,10 +9,10 @@ import data from '../compo/Data.json'
 export function FirstPara() {
   return (
     <Container>
-      <Box sx={{ mt: 2 }}>
+      <Box sx={{ mt:2}}>
         <Box component="img" src={Himachal} alt="Himachal" style={{ width: "100%", height: "auto", borderRadius: "20px", }} />
         {data.FirstPara.map((para, i) => (
-          <Typography key={i} variant="body1" paragraph>
+          <Typography mt={2} key={i} variant="body1" paragraph>
             {para}
           </Typography>
         ))}
@@ -51,7 +51,7 @@ export function Equipment() {
 
 export function TrekkingList() {
 
-  const items = data.TrekkingItmesList; // now coming from JSON
+  const items = data.TrekkingItmesList;
   const mid = Math.ceil(items.length / 2);
   const col1 = items.slice(0, mid);
   const col2 = items.slice(mid);
@@ -211,7 +211,7 @@ export function SportManagementTable() {
         MANAGEMENT OF THE SPORT IN INDIA
       </Typography>
       {data.SportManagementTableRows.map(({ para }, i) => (
-        <Typography key={i} mt={2} variant="body1" paragraph>
+        <Typography key={i} variant="body1" paragraph>
           {para}
         </Typography>
       ))}
@@ -248,7 +248,6 @@ export function Competetions() {
       <Typography variant="h6" mt={2} sx={{ fontWeight: "bold" }}>
         COMPETETION
       </Typography>
-      <Box sx={{ mt: 2 }}>
         {data.CompetetionsRows.map(({ para }, i) => (
           <Typography key={i} variant="body1" paragraph>
             {para}
@@ -300,7 +299,6 @@ export function Competetions() {
             </TableBody>
           </Table>
         </TableContainer>
-      </Box>
     </>
   );
 }
@@ -415,13 +413,13 @@ export function BenefitsOfClimbing() {
     <>
       <Typography variant="h6" mt={2} sx={{ fontWeight: "bold" }}>BENEFITS OF SPORT CLIMBING</Typography>
       <List>
-        <ListItem sx={{ display: "list-item", pl: 2 }}>
-          {data.Benefits.map(({ name, description }, i) => (
+        {data.Benefits.map(({ name, description }, i) => (
+          <ListItem key={i} sx={{ display: "list-item", pl: 2 }}>
             <ListItemText primary={<Typography component="span" fontWeight="bold">
               {name}
             </Typography>} secondary={description} />
-          ))}
-        </ListItem>
+          
+          </ListItem>))}
       </List>
     </>
   )
