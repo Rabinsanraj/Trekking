@@ -1,6 +1,6 @@
 import './App.css'
 import { Typography, Container, Box, Grid } from "@mui/material";
-import { Route, Routes, Link,} from 'react-router-dom';
+import { Route, Routes, Link, } from 'react-router-dom';
 
 import Trekking from '../Pages/Trekking';
 import RockClimbing from '../Pages/RockClimbing';
@@ -30,6 +30,7 @@ const CustomLink = styled(Link)(({ theme}) => ({
 
 function App() {
   return (
+    <>
     <Box>
       <Typography variant="h3" color="#000000dc" fontWeight="bold" textAlign="center" mt={3}>Climb India</Typography>
       <Container mt={2} sx={{textAlign:"center"}}>
@@ -60,6 +61,7 @@ function App() {
 
       </Routes>
     </Box>
+    </>
   )
 }
 

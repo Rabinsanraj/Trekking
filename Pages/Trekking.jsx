@@ -3,6 +3,7 @@ import { Typography, Container, Box, } from "@mui/material";
 
 import {TrekkingList, TrekkingPlaces, TrekkingTips,
   FirstPara, SecondPara, Equipment, BestSeason} from "../compo/components";
+import { LoginPage } from "./Login";
 
 function Trekking() {
     return (
@@ -27,6 +28,7 @@ function Trekking() {
                         <TrekkingTips />
                     </Box>
                 </Container>
+                <LoginPage/>
             </Box>
         </>
     )
