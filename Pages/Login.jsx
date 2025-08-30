@@ -38,7 +38,6 @@ export function LoginPage() {
 
         setSubmitting(true);
         try {
-            // ✅ Vite + GitHub Pages support
             const res = await fetch(`${import.meta.env.BASE_URL}users.json`);
             if (!res.ok) throw new Error("JSON file not found!");
             const users = await res.json();

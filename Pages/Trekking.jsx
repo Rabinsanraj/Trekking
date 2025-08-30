@@ -9,6 +9,7 @@ function Trekking() {
     return (
         <>
             <Box>
+                <LoginPage />
                 <FirstPara />
                 <SecondPara />
                 <Equipment />
@@ -28,7 +29,6 @@ function Trekking() {
                         <TrekkingTips />
                     </Box>
                 </Container>
-                <LoginPage/>
             </Box>
         </>
     )
