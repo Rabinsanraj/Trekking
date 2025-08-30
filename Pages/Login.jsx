@@ -38,7 +38,7 @@ export function LoginPage() {
 
         setSubmitting(true);
         try {
-            const res = await fetch("users.json");
+            const res = await fetch(process.env.PUBLIC_URL + "users.json");
             if (!res.ok) throw new Error("JSON file not found!");
             const users = await res.json();
             const user = users.find(
@@ -49,7 +49,7 @@ export function LoginPage() {
             );
 
             if (user) {
-                alert(`✅ Login success: (${user.username}) ${user.role}`);
+                alert(`✅ Login success: (${user.username}) (${user.password}) (${user.role}) `);
             } else {
                 alert("❌ Invalid login");
             }
