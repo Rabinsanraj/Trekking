@@ -38,9 +38,11 @@ export function LoginPage() {
 
         setSubmitting(true);
         try {
-            const res = await fetch(process.env.PUBLIC_URL + "users.json");
+            // ✅ Vite + GitHub Pages support
+            const res = await fetch(`${import.meta.env.BASE_URL}users.json`);
             if (!res.ok) throw new Error("JSON file not found!");
             const users = await res.json();
+
             const user = users.find(
                 (u) =>
                     u.username === formData.username &&
@@ -49,18 +51,20 @@ export function LoginPage() {
             );
 
             if (user) {
-                alert(`✅ Login success: (${user.username}) (${user.password}) (${user.role}) `);
+                alert(`✅ Login success : Welcome ${user.username}`);
             } else {
                 alert("❌ Invalid login");
             }
         } catch (err) {
             console.error(err);
-            alert("Login failed -" + err.message);
+            alert("Login failed - " + err.message);
         } finally {
             setSubmitting(false);
             setCaptcha(generateCaptcha());
         }
     };
+
+
 
     const isFormValid =
         formData.username && formData.password && formData.role && formData.captchaInput;
